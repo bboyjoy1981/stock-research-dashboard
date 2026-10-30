@@ -1,0 +1,15 @@
+[Unit]
+Description=A-share technology decision dashboard
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/stock-dashboard
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 -m streamlit run app.py --server.address 127.0.0.1 --server.port 8505
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,21 @@
+# Install only into the dedicated guest deployment's .streamlit/config.toml.
+# Based on the native financial-dashboard palette; no remote fonts or CSS.
+[theme]
+base = "dark"
+primaryColor = "#137b9c"
+backgroundColor = "#080d16"
+secondaryBackgroundColor = "#111b2b"
+textColor = "#e7edf7"
+font = "sans serif"
+baseFontSize = 14
+headingFontSizes = ["28px", "24px", "19px", "17px", "15px", "14px"]
+borderColor = "#24384e"
+dataframeBorderColor = "#24384e"
+dataframeHeaderBackgroundColor = "#162238"
+redColor = "#ef4444"
+greenColor = "#22c55e"
+baseRadius = "8px"
+showWidgetBorder = true
+
+[client]
+toolbarMode = "minimal"

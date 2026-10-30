@@ -1,0 +1,2 @@
+# Run every day at 23:30 server time.
+30 23 * * * /opt/stock-dashboard/backup_server.sh >> /var/log/stock-dashboard-backup.log 2>&1

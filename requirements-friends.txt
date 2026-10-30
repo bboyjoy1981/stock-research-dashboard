@@ -1,0 +1,5 @@
+# Dedicated guest runtime, matching locally verified application versions.
+# Never deploy the station owner's full project or its personal databases.
+streamlit[auth]==1.64.0
+pandas==3.0.5
+plotly==7.1.0
